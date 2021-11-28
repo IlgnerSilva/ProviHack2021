@@ -1,13 +1,23 @@
-html, body {
-    height: 100%;
+  body {
+    font-family: 'Sen', sans-serif;
+    font-size: 1em;
   }
   
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  header {
+    background: linear-gradient(180deg, #9DB8FF 0%, #476DD1 100%);
   }
-  
+
+  .logotipo {
+    width: 100%;
+    text-align: center;
+    padding: 2em 0;
+  }
+
+
+  a {
+    color: black;
+  }
+
   #chat {
     height: 100%;
     display: flex;
@@ -45,3 +55,7 @@ html, body {
     overflow: auto;
   }
   .mensagens > .mensagem:nth-child(odd) { background: #efefef; }
+
+
+
+  
