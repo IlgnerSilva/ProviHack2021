@@ -6,12 +6,16 @@ const PORT = process.env.PORT || 3000
 const io = require('socket.io')(server)
 
 app.use(express.static(path.join(__dirname, 'public')));
-app.set('views', path.join(__dirname, 'public'))
+app.set('views', path.join(__dirname, 'public/views'))
 app.engine('html', require('ejs').renderFile);
-app.set('view engine', 'html');
+app.set('view engine', 'ejs');
 
-app.use('/', (req, res)=>{
-    res.render('index.html')
+app.get('/', (req, res)=>{
+    res.render('index')
+})
+
+app.get('/facebook', (req, res)=>{
+    res.render('facebook')
 })
 
 let bdMensagens = []
