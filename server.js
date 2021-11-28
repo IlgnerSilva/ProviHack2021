@@ -23,6 +23,16 @@ app.get('/whatsapp', (req, res)=>{
 app.get('/instagram', (req, res)=>{
     res.render('instagram')
 })
+app.get('/youtube', (req, res)=>{
+    res.render('youtube')
+})
+app.get('/tiktok', (req, res)=>{
+    res.render('tiktok')
+})
+app.get('/telegram', (req, res)=>{
+    res.render('telegram')
+})
+
 let bdMensagens = []
 
 io.on('connection', socket =>{

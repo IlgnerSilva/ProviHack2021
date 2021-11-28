@@ -1,51 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <%- include('head'); %>
-<body>
-    <%- include('header'); %>
-    <main>
-        <div class="apresentacao">
-            <div class="boasvindas">
-                <h1>Você sempre conectado</h1>
-                <p>Tem dúvidas de como começar nas redes sociais!? A Vôutech te ensina.</p>
-                <div class="ilustracao">
-                    <img src="./img/home.svg"
-                        alt="Imagem de uma pessoa idosa utilizando um mega-fone e várias imagens de redes sociais de fundo" />
+<%- include('head'); %>
+
+    <body>
+        <%- include('header'); %>
+            <main>
+                <div class="apresentacao">
+                    <div class="boasvindas">
+                        <h1>Você sempre conectado</h1>
+                        <p>Tem dúvidas de como começar nas redes sociais!? A Vôutech te ensina.</p>
+                        <div class="ilustracao">
+                            <img src="./img/home.svg"
+                                alt="Imagem de uma pessoa idosa utilizando um mega-fone e várias imagens de redes sociais de fundo" />
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-        <div class="redesSociais">
-            <h2>Escolha a rede social que
-                você deseja aprender:</h2>
-            <div class="divs-redes">
-                <button class="buttons"><a href=""><i class="fab fa-facebook-f"></i>Facebook</a></button>
-                <button class="buttons"><a href="/whatsapp"><i class="fab fa-whatsapp"></i>Whatspp</a></button>
-            </div>
-            <div class="divs-redes"><button class="buttons"><a href=""><i
-                            class="fab fa-instagram"></i>Instagram</a></button>
-                <button class="buttons"><a href=""><i class="fab fa-youtube"></i>Youtube</a></button>
-            </div>
-            <div class="divs-redes">
-                <button class="buttons"><a href=""><i class="fab fa-tiktok"></i>Tiktok</a></button>
-                <button class="buttons"><a href=""><i class="fab fa-telegram-plane"></i>Telegram</a></button>
-            </div>
-        </div>
+                <div class="redesSociais">
+                    <h2>Escolha a rede social que
+                        você deseja aprender:</h2>
+                    <div class="divs-redes">
+                        <button class="buttons"><a href="/facebook"><i
+                                    class="fab fa-facebook-f"></i>Facebook</a></button>
+                        <button class="buttons"><a href="/whatsapp"><i class="fab fa-whatsapp"></i>Whatspp</a></button>
+                    </div>
+                    <div class="divs-redes"><button class="buttons"><a href="/instagram"><i
+                                    class="fab fa-instagram"></i>Instagram</a></button>
+                        <button class="buttons"><a href="/youtube"><i class="fab fa-youtube"></i>Youtube</a></button>
+                    </div>
+                    <div class="divs-redes">
+                        <button class="buttons"><a href="/tiktok"><i class="fab fa-tiktok"></i>Tiktok</a></button>
+                        <button class="buttons"><a href="/telegram"><i class="fab fa-telegram-plane"></i>Telegram</a></button>
+                    </div>
+                </div>
 
-        <section class='duvidas' id='duvidas'>
-            <div class="tituloChat">
-                <h2>Tem dúvidas ainda?</h2>
-                <h3>Fale com a gente</h3>
-            </div>
-            <form id="chat">
-                <input type="text" name="username" placeholder="Digite seu usuário" class='nome'>
-                <div class="mensagens"></div>
-                <input type="text" name="mensagem" placeholder="Digite sus mensagem" class='pergunta'>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-    <%- include('footer'); %>
-</body>
+                <section class='duvidas' id='duvidas'>
+                    <div class="tituloChat">
+                        <h2>Tem dúvidas ainda?</h2>
+                        <h3>Fale com a gente</h3>
+                    </div>
+                    <form id="chat">
+                        <input type="text" name="username" placeholder="Digite seu nome" class='nome'>
+                        <div class="mensagens"></div>
+                        <input type="text" name="mensagem" placeholder="Digite sus mensagem" class='pergunta'>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </section>
+            </main>
+            <%- include('footer'); %>
+    </body>
 
 </html>

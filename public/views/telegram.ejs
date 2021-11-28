@@ -4,24 +4,34 @@
 
     <body>
         <%- include('header'); %>
-
+            <div class="titulo">
+                <h1>Whatsapp</h1>
+            </div>
             <main>
-                <p>
-                    O Telegram é uma rede social de mensagens, sendo a mais segura entre elas, onde você pode enviar mensagens de texto, áudios, imagens, vídeos e realizar chamadas, além de editar mensagens já enviadas.
-                </p>
-                <i class="fab fa-telegram-plane"></i>
-                <p>Perguntas:</p>
-                <p>Como iniciar uma conversa?</p>
-                <p>Como mandar uma imagem?</p>
-                <p>Como gravar um áudio?</p>
-                <p>Como entrar em um grupo?</p>
-                <p>Como editar uma mensagem?</p>
-                <p>Como excluir uma mensagem?</p>
-              
-                
-                <a href=""><i class="fas fa-arrow-left"></i></a>
-                <legend>Voltar ao início</legend>
-            
+                <div>
+                    <p class="descricao">
+                        O Telegram é uma rede social de mensagens, sendo a mais segura entre elas, onde você pode enviar
+                        mensagens de texto, áudios, imagens, vídeos e realizar chamadas, além de editar mensagens já
+                        enviadas.
+                    </p>
+                    <div class="redesSociais div-redes">
+                        <button class="buttons"><i class="fab fa-telegram-plane"></i></button>
+                    </div>
+                    <div>
+                        <div class="descricao">
+                            <p class="subtitulo">Perguntas:</p>
+                            <p>Como iniciar uma conversa?</p>
+                            <p>Como mandar uma imagem?</p>
+                            <p>Como gravar um áudio?</p>
+                            <p>Como entrar em um grupo?</p>
+                            <p>Como editar uma mensagem?</p>
+                            <p>Como excluir uma mensagem?</p>
+                        </div>
+                    </div>
+
+                    <a class="return" href="/">Voltar ao início</a><i class="fas fa-arrow-left"></i>
+
+
             </main>
             <%- include('footer'); %>
     </body>

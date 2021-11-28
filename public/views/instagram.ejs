@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-    <%- include('head'); %>
-<body>
-    <%- include('header'); %>
-    <p>O Instagram é uma rede social online de compartilhamento de fotos e vídeos entre seus usuários, que permite aplicar filtros digitais e compartilhá-los em uma variedade de serviços de redes sociais.</p>
-    <button class="buttons"><a href=""><i
-        class="fab fa-instagram"></i>Instagram</a></button>
+<%- include('head'); %>
 
-    <p>Perguntas:</p>
-    <p>Como postar uma foto?</p>
-    <p>Como seguir um amigo?</p>
-    <p>Como compartilhar uma foto?</p>
-    <p>Onde fica o local de conversa no instagram?</p>
+    <body>
+        <%- include('header'); %>
+            <div class="titulo">
+                <h1>Instagram</h1>
+            </div>
+            <main>
+                <div>
+                    <p class="descricao">O Instagram é uma rede social online de compartilhamento de fotos e vídeos
+                        entre seus usuários, que permite aplicar filtros digitais e compartilhá-los em uma variedade de
+                        serviços de redes sociais.</p>
+                </div>
 
-    <a href=""><i class="fas fa-arrow-left"></i></a>
-    <legend>Voltar ao início</legend>
-    
-    <%- include('footer'); %>
+                <div class="redesSociais div-redes">
+                    <button class="buttons">
+                        <a href=""><i class="fab fa-instagram"></i>Instagram</a>
+                    </button>
+                </div>
+                <div>
+                    <div class="descricao">
+                        <p class="subtitulo">Perguntas:</p><p>Como postar uma foto?</p>
+                        <p>Como seguir um amigo?</p>
+                        <p>Como compartilhar uma foto?</p>
+                        <p>Onde fica o local de conversa no instagram?</p>
+                    </div>
+                </div>
 
-</body>
+                <a class="return" href="/"><i class="fas fa-arrow-left"></i> Voltar ao início</a>
+            </main>
+            <%- include('footer'); %>
+
+    </body>
 
 </html>

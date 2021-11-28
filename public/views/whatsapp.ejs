@@ -4,41 +4,55 @@
 
     <body>
         <%- include('header'); %>
+        <div  class="titulo"><h1>Whatsapp</h1></div>
             <main>
                 <div>
-                    <p>O Whatspp é uma rede social de mensagens, onde você pode enviar mensagens de texto, áudios,
+                    <p class="descricao">O Whatspp é uma rede social de mensagens, onde você pode enviar mensagens de
+                        texto, áudios,
                         imagens,
                         videos e documentos! Além disso, é possível realizar chamadas de voz e de vídeo com seus amigos
-                        e 
+                        e
                         familiares.</p>
                 </div>
-                <div>
-                    <i class="fab fa-whatsapp"></i>
+                <div class="redesSociais div-redes">
+                    <button class="buttons"><i class="fab fa-whatsapp i"></i></button>
                 </div>
                 <div>
-                    <p>Perguntas:</p>
-                    <p>Como iniciar uma conversa?</p>
-                    <p>Como mandar uma imagem?</p>
-                    <p>Como criar grupos?</p>
-                    <p>Como fazer chamadas de voz?</p>
-                    <p>Como fazer chamadas de video?</p>
-                    <p>Como adicionar um status?</p>
-                    <p>Como gravar um áudio?</p>
+                    <div class="descricao">
+
+
+                        <a href="#vid">Como iniciar uma conversa?</a>
+                        <p>Como mandar uma imagem?</p>
+                        <p>Como criar grupos?</p>
+                        <p>Como fazer chamadas de voz?</p>
+                        <p>Como fazer chamadas de video?</p>
+                        <p>Como adicionar um status?</p>
+                        <p>Como gravar um áudio?</p>
+                    </div>
                 </div>
 
-                <h1>Como faço para iniciar uma conversa?</h1>
 
-                <h2>Veja o passo a passo:</h2>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/wtg2gg-samA"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+                <div class="pergunta" id="vid">
+                    <p class="descricao">Como iniciar uma conversa?</p>
 
-                <p>1.Encontrar contatos indo até à aba de “Conversas”.
-                    2.Toque no ícone de “Nova Conversa”.</p>
+                    <p>Veja o passo a passo:</p>
+                    <div class="video" ></div>
+                        <iframe width="100%" height="315"
+                        src="https://www.youtube.com/embed/wtg2gg-samA" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+                
+            <ol>
+                <li>Clique no ícone de mensagem, que fica na parte inferior da tela de conversas.</li>
+                <li>Selecione o contato que deseja falar.</li>
+                <li>Escreva a mensagem ou envie um áudio. Esses campos ficam no fim da tela.</li>
+            </ol>
 
-                <a href=""><i class="fas fa-arrow-left"></i></a>
-                <legend>Voltar ao início</legend>
+                </div>
+
+                <a class="return" href="/"><i class="fas fa-arrow-left"></i> Voltar ao início</a>
 
             </main>
 
