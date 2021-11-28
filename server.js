@@ -17,7 +17,12 @@ app.get('/', (req, res)=>{
 app.get('/facebook', (req, res)=>{
     res.render('facebook')
 })
-
+app.get('/whatsapp', (req, res)=>{
+    res.render('whatsapp')
+})
+app.get('/instagram', (req, res)=>{
+    res.render('instagram')
+})
 let bdMensagens = []
 
 io.on('connection', socket =>{
