@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,38 +8,53 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.4.0/socket.io.js"></script>
     <script defer src="./socket.js"></script>
-    <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
-    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="./css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
-    <link crossorigin='anonymous' href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' integrity='sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr' rel='stylesheet'/>
+    <script src="https://kit.fontawesome.com/100395689d.js" crossorigin="anonymous"></script>
     <title>Vôutech || Desmitificando a internet para todos!</title>
 </head>
+
 <body>
-        <!--Conteudo aqui-->
+    <!--Conteudo aqui-->
 
-        <header>
-            <div class="logotipo">LOGO</div>
-            <nav class="navbar"> 
-                <li>Início</li>
-                <li>Quem Somos</li>
-                <li>Contato</li>
-            </nav>
-            </header>
-            <main>
-                <div class="header">
-                    <div class="boasvindas">
-                        <h1>Você sempre conectado</h1>
-                        <p>Tem dúvidas de como começar nas redes sociais!? A Vôutech te ensina.</p>
-                        <div class="ilustracao"></div> 
-                    </div>   
-                </div>
-        
-               
-            </main> 
+    <header>
+        <div class="logotipo">LOGO</div>
+        <nav class="navbar">
+            <li>Início</li>
+            <li>Quem Somos</li>
+            <li>Contato</li>
+        </nav>
+    </header>
+    <main>
+        <div class="header">
+            <div class="boasvindas">
+                <h1>Você sempre conectado</h1>
+                <p>Tem dúvidas de como começar nas redes sociais!? A Vôutech te ensina.</p>
+                <div class="ilustracao"></div>
+            </div>
+        </div>
 
-    <form id="chat"> 
+        <div class="redesSociais">
+            <h2>Escolha a rede social que
+                 você deseja aprender:</h2>
+            <div class="divs-redes">
+                <button class="buttons"><a href=""><i class="fab fa-facebook-f"></i>Facebook</a></button>
+                <button class="buttons"><a href=""><i class="fab fa-whatsapp"></i>Whatspp</a></button>
+            </div>
+            <div class="divs-redes"><button class="buttons"><a href=""><i class="fab fa-instagram"></i>Instagram</a></button>
+                <button class="buttons"><a href=""><i class="fab fa-youtube"></i>Youtube</a></button>
+            </div>
+            <div class="divs-redes">
+                <button class="buttons"><a href=""><i class="fab fa-tiktok"></i>Tiktok</a></button>
+                <button class="buttons"><a href=""><i class="fab fa-telegram-plane"></i>Telegram</a></button>
+            </div>
+        </div>
+    </main>
+
+    <form id="chat">
         <input type="text" name="username" placeholder="Digite seu usuário">
         <div class="mensagens"></div>
         <input type="text" name="mensagem" placeholder="Digite sus mensagem">
@@ -46,4 +62,5 @@
     </form>
 
 </body>
+
 </html>
