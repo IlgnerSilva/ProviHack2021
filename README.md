@@ -52,7 +52,7 @@ A versão NodeJs utilizada para desenvolvimento é a 16.x LTS, logo é necessár
 <a href="https://www.linkedin.com/in/camilaherreira/">Camila Herreira</a>
 <a href="https://www.linkedin.com/in/larissa-iasmin-0734bb175/">Larissa Iasmin</a>
 
-#Devs
+# Devs
 
 <a href="https://www.linkedin.com/in/ilgner-silva-dev/">Ilgner Silva | FullStack</a>
 
