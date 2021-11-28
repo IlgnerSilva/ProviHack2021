@@ -46,4 +46,5 @@ A versão NodeJs utilizada para desenvolvimento é a 16.x LTS, logo é necessár
 
 ## Equipe
 
-<a href="https://www.linkedin.com/in/luciano-mendes-b32a38204/">luciano Mendes / Front End</a>
+<img sr![WhatsApp Image 2021-10-18 at 19 00 49](https://user-images.githubusercontent.com/88147834/143787164-815d11b8-ddd3-4263-b8ca-97f95bd370e8.jpeg)
+c="Foto de Luciano Mendes sorrindo com camisa vermelha e usando brincos de cruz."<a href="https://www.linkedin.com/in/luciano-mendes-b32a38204/">Luciano Mendes | Front End</a>
