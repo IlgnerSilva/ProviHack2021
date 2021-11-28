@@ -4,12 +4,18 @@ const app = express();
 const server = require('http').createServer(app)
 const PORT = process.env.PORT || 3000
 const io = require('socket.io')(server)
+const cors = require('cors')
 
+//Localizando e definindo engine de arquivos
 app.use(express.static(path.join(__dirname, 'public')));
-app.set('views', path.join(__dirname, 'public/views'))
+app.set('views', path.join(__dirname, 'public/views'));
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
 
+//Tratando cors
+app.use(cors());
+
+//Rotas
 app.get('/', (req, res)=>{
     res.render('index')
 })
@@ -17,26 +23,25 @@ app.get('/', (req, res)=>{
 app.get('/facebook', (req, res)=>{
     res.render('facebook')
 })
+
 app.get('/whatsapp', (req, res)=>{
     res.render('whatsapp')
 })
+
 app.get('/instagram', (req, res)=>{
     res.render('instagram')
 })
+
+//Array para armazenar mensgens 
 let bdMensagens = []
 
+//Monitorando entrada de usuário e mensagens
 io.on('connection', socket =>{
-    console.log(`Socket conectado: ${socket.id}`)
-
     socket.emit('msgAntigas', bdMensagens)
-
     socket.on('enviaMensagem', data =>{
-        console.log(data)
         bdMensagens.push(data);
         socket.broadcast.emit('msgRecebida', data)
-    })
-})
+    });
+});
 
-server.listen(PORT, ()=>{
-    console.log('Servidor rodando em localhost:3000')
-})
+server.listen(PORT)
