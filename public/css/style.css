@@ -5,18 +5,111 @@
   
   header {
     background: linear-gradient(180deg, #9DB8FF 0%, #476DD1 100%);
+
   }
 
   .logotipo {
     width: 100%;
     text-align: center;
-    padding: 2em 0;
+    padding: 2em 0 0;
+
   }
+
+  .logotipo img {
+    width: 35%;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .menu {
+    list-style: none;
+    display: flex;
+    margin: 0.5em 0;
+  }
+
+  .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+    margin: 0 1em;
+}
+
+.menu li {
+    margin: 1.5em;
+ 
+}
+
+.menu li a {
+    text-decoration:none;
+    color: #fff;
+}
+
+.menu li a:hover {
+text-decoration: none;
+color: #ffffff;
+transition: ease-in 0.1s;
+border-bottom: 3px solid white;
+}
 
 
   a {
     color: black;
   }
+
+
+  .apresentacao {
+    height: 500px;
+    text-align: center;
+    background: #EFEFEF;
+    padding: 3em 0;
+}
+
+
+.boasvindas {
+  width: 100%;
+  text-align: center;
+}
+
+.boasvindas h1 {
+  font-size: 2em;
+  margin: 1em;
+  font-weight: 800;
+}  
+
+.boasvindas p {
+  font-size: 1.5em;
+  margin: 1.75em;
+  line-height: 1.3;
+}
+
+.duvidas {
+  background: #A6BAEB;
+  padding: 2.5em 0;
+}
+
+.tituloChat {
+  padding: 2.25em;
+}
+
+.tituloChat h2 {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+.tituloChat h3 {
+  font-size: 1.8em;
+  font-weight: 600;
+  line-height: 1.2;
+
+}
 
   #chat {
     height: 100%;
@@ -26,36 +119,56 @@
     flex-direction: column;
   }
   
+  /* INPUT - Ajuda */
+
   input {
-    width: 600px;
+    width: 70%;
     border: 1px solid #ddd;
     height: 50px;
     padding: 0 20px;
     font-size: 14px;
+    border-radius: 10px;
+    font-family: 'Sen', sans-serif;
   }
-  
-  button {
-    width: 600px;
-    height: 50px;
-    font-size: 14px;
-    background: #069;
-    text-align: center;
-    line-height: 50px;
-    font-weight: bold;
-    color: #FFF;
-    margin-top: 10px;
-  }
+
+  .mensagens {
+    width: 70%;
+    height: 400px;
+    margin: 20px 0px 0px 0px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    overflow: auto;
+    border-radius: 10px 10px 0px 0px;
+    background: #f0f0f0;
+}
+
+button {
+  width: 80%;
+  height: 50px;
+  font-size: 14px;
+  background: #069;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  color: #FFF;
+  margin-top: 10px;
+  border: 0px;
+  border-radius: 10px;
+}
   
   .mensagens {
-    width: 600px;
+    width: 70%;
     height: 400px;
     margin: 20px 0;
     border: 1px solid #ddd;
     padding: 20px;
     overflow: auto;
+    border-radius: 10px;
+    background: #f0f0f0;
   }
   .mensagens > .mensagem:nth-child(odd) { background: #efefef; }
 
-
-
-  
+  footer {
+    background-color: #476DD1;
+    height: 100px;
+}
