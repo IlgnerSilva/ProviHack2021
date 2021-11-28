@@ -44,3 +44,18 @@ npm run start
 
 A versão NodeJs utilizada para desenvolvimento é a 16.x LTS, logo é necessário intalação de versão igual ou superior para a perfeita execução da mesma.
 
+## Equipe
+# P.O.
+<a href="https://www.linkedin.com/in/paôlaprado/">Paôla Prado</a>
+
+# UI/UX:
+<a href="https://www.linkedin.com/in/camilaherreira/">Camila Herreira</a>
+<a href="https://www.linkedin.com/in/larissa-iasmin-0734bb175/">Larissa Iasmin</a>
+
+# Devs
+
+<a href="https://www.linkedin.com/in/ilgner-silva-dev/">Ilgner Silva | FullStack</a>
+
+<a href="https://www.linkedin.com/in/gabrielaalvescosta/">Gabrila Costa | Front End /a>   
+
+<a href="https://www.linkedin.com/in/luciano-mendes-b32a38204/">Luciano Mendes | Front End</a>
