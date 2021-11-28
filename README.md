@@ -46,7 +46,7 @@ A versão NodeJs utilizada para desenvolvimento é a 16.x LTS, logo é necessár
 
 ## Equipe
 # P.O.
-<a href="https://www.linkedin.com/in/paôlaprado/"></a>
+<a href="https://www.linkedin.com/in/paôlaprado/">Paôla Prado</a>
 
 # UI/UX:
 <a href="https://www.linkedin.com/in/camilaherreira/">Camila Herreira</a>
