@@ -27,7 +27,6 @@ Projeto de web destinado ao hackathon da ProviHack 2021 Para Todos, no qual o te
 ## Paola (Product Manager)
 <a href="https://linkedin.com/in/gabrielaalvescosta" target="_blank">LinkedIn</a> 
 =======
-# Projeto de web destinado ao hackathon da ProviHack 2021 Para Todos, no qual o tema principal é diversidade.
 
 ## Descrição da aplicação:
 Uma aplicação web com front e back-end onde o foco é o publico +50, mas que qualquer pessoa que queira aprender a utilizar os aplicativos mas populares da atualizadade poderão Usufruir  
