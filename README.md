@@ -4,7 +4,7 @@ O projeto foi desenvolvimento dentro da evento #ProviHackParaTodos2021 cujo prop
 
 Após reflexão e pesquisa, o grupo da diversidade etária foi esclhido, focando nas dificuldades em utilizar as redes sociais mais recorrentes na sociedade, como whatsapp, faceboook, instagram e, até mesmo, o próprio youtube. 
 
-Considerando a problemática, após mais pesquisas qualitativas, a equipe decidiu por criar uma página web mobile (considerando que as pessoas de idade avançada usam mais smartphones do que eu outros aparelhos de conexão web), com tutoriais de linguagem e usabilidade acessíveis, onde estes pudessem adquirir as habilidades de usar as redes sociais com mais facilidade. A solução desenvolvida apresenta diversificação de uma mesma dúvida para que pessoas que queiram aprender possam se adaptar a melhor forma de acompanhar o passo a passo. Além disso, o grupo desenvolveu um chat para comunicação do usuário
+Considerando a problemática, após mais pesquisas qualitativas, a equipe decidiu por criar uma página <b>web mobile (considerando que as pessoas de idade avançada usam mais smartphones do que eu outros aparelhos de conexão web)</b>, com tutoriais de linguagem e usabilidade acessíveis, onde estes pudessem adquirir as habilidades de usar as redes sociais com mais facilidade. A solução desenvolvida apresenta diversificação de uma mesma dúvida para que pessoas que queiram aprender possam se adaptar a melhor forma de acompanhar o passo a passo. Além disso, o grupo desenvolveu um chat para comunicação do usuário
 
 
 # Créditos
