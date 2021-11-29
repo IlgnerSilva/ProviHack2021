@@ -26,6 +26,8 @@ Projeto de web destinado ao hackathon da ProviHack 2021 Para Todos, no qual o te
 
 ## Paola (Product Manager)
 <a href="https://linkedin.com/in/gabrielaalvescosta" target="_blank">LinkedIn</a> 
+
+
 =======
 
 ## Descrição da aplicação:
