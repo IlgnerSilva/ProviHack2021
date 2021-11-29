@@ -6,6 +6,12 @@ Após reflexão e pesquisa, o grupo da diversidade etária foi esclhido, focando
 
 Considerando a problemática, após mais pesquisas qualitativas, a equipe decidiu por criar uma página <b>web mobile (considerando que as pessoas de idade avançada usam mais smartphones do que eu outros aparelhos de conexão web)</b>, com tutoriais de linguagem e usabilidade acessíveis, onde estes pudessem adquirir as habilidades de usar as redes sociais com mais facilidade. A solução desenvolvida apresenta diversificação de uma mesma dúvida para que pessoas que queiram aprender possam se adaptar a melhor forma de acompanhar o passo a passo. Além disso, o grupo desenvolveu um chat para comunicação do usuário
 
+# VouTech
+
+Pensando no desafio dado, escolhemos o grupo de idosos, pois assim como no nosso grupo, a maioria das pessoas tem contato com eles e conhecem as dificuldades que enfrentam todos os dias.
+Depois de muita presquisa, chegamos então ao problema “Como poderíamos ajudar idosos a ter autonomia em redes sociais?”
+E como solução, criamos o VôuTech um site voltado para o mobile, onde os idosos poderão acessar tutoriais de uso das principais funcionalidades de redes sociais, como WhatsApp, Instagram, Facebook e Youtube.
+
 
 # Créditos
 
