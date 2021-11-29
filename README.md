@@ -83,6 +83,5 @@ npm run start
 ```
 ## Observação importante:
 
-A versão NodeJs utilizada para desenvolvimento é a 16.x LTS, logo é necessário intalação de versão igual ou superior para a perfeita execução da mesma.
+A versão NodeJs utilizada para desenvolvimento é a 16.x LTS, logo é necessário instalação de versão igual ou superior para a perfeita execução da mesma.
 
->>>>>>> socketio-ejs
