@@ -14,6 +14,8 @@ Depois de muita pesquisa, chegamos então ao problema: “Como poderíamos ajuda
 
 E como solução, criamos o VôuTech um site voltado para o mobile, onde os idosos poderão acessar tutoriais de uso das principais funcionalidades de redes sociais, como WhatsApp, Instagram, Facebook e Youtube.
 
+link da aplicação no heroku: <a href="https://voutech.herokuapp.com/">VOUTECH</a>
+
 
 # Créditos
 
