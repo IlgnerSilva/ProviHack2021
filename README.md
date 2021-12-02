@@ -60,7 +60,7 @@ As dependencias podem ser encontradas neste arquivo<a href = 'https://github.com
 Para instalar basta rodar o comando abaixo, selecionando e copiando o mesmo com as teclas "Ctrl + c" e em seguida colar no terminal com as telas "Ctrl + Shift + v" o comando abaixo já irá fazer o clone deste repositório e instalar as dependencias necessárias.
 
 ```
-git clone https://github.com/gabrielaalvescosta/ProviHack2021&& npm install
+git clone https://github.com/gabrielaalvescosta/ProviHack2021 && cd ./ProviHack2021 && npm install
 ```
 
 ## Dependencias de desenvolvimento:
